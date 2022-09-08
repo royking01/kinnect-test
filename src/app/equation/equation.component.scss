@@ -1,0 +1,16 @@
+.container-fluid {
+  height: 50vh;
+  .f1 {
+    font-size: 70px;
+  }
+  input[type="number"] {
+    border: 0;
+    border-bottom: 1px solid #000;
+    outline: none;
+    width: 50%;
+    &:active,
+    &:focus {
+      border-bottom: 1px solid rgba(81, 150, 241, 0.814);
+    }
+  }
+}
