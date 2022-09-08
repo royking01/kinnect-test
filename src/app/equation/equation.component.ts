@@ -33,7 +33,7 @@ export class EquationComponent implements OnInit {
     this.number2 = this.getRandomArbitrary();
   }
 
-  calculateSum(e: number | string | undefined) {
+  handleSum(e: number | string | undefined) {
     if (!e) {
       this.answerStatus = null;
     } else if (Number(e) === this.number1 + this.number2) {
